@@ -18,4 +18,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: runsrver Test
-      run: python manage.py runserver
+      run: python manage.py test
